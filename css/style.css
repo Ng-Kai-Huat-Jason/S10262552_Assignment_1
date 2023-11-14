@@ -1,14 +1,19 @@
-/* NAV BAR STYLE START */
 body{
     margin: 0;
 }
+/* NAV BAR STYLE START */
 
 .navbar {
     font-family: 'Roboto Slab';
     overflow: hidden;
     background-color: black;
-  }
-  
+}
+
+.navbar img{
+    width: 250px;
+    height: 80px;
+}
+
 .navbar a {
     float: right;
     display: block;
@@ -18,8 +23,7 @@ body{
     text-decoration: none;
     font-size: 20px;
     border-bottom: 5px solid transparent;
-  }
-  
+}
 .navbar .active {
     border-bottom: 5px solid skyblue;
     color: white;
@@ -77,7 +81,7 @@ body{
     display: block;
 }
   
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .navbar a:not(:first-child), .dropdown .dropbtn {
       display: none;
     }
@@ -87,7 +91,10 @@ body{
     }
 }
   
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
+    .navbar.responsive img{
+        display:none;
+    }
     .navbar.responsive {
         display:flex;
         flex-direction: column-reverse;
