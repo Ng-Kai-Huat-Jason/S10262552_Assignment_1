@@ -124,3 +124,11 @@ body{
     }
 }
 /* NAV BAR STYLE END */
+
+/* SLIDESHOW START */
+
+.slideshow-container .mySlides img{
+    width:100%;
+}
+
+/* SLIDESHOW END */
