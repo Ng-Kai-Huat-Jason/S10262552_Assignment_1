@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <script type = "text/javascript" src="javascript\main.js"></script>
     <link href= "https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css\style.css">
     <title>LOLStore</title>
@@ -9,24 +10,22 @@
 
   <body>
     <!-- NAV BAR START -->
-    <div class="navbar" id="mynavbar">
-      <a href="#" class = "active">Contact</a>
-      <a href="#" class = "active">About</a>
-      <a href="#" class = "active">Product</a>
-      <a href="#" class = "active">Home</a>
-        <div class="dropdown">
-          <button class="dropbtn">Account
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Register</a>
-            <a href="#">Login</a>
-          </div>
+    <nav class="navbar" id="myNavbar">
+      <div class="dropdown">
+        <button class="dropbtn">Account</button>
+        <div class="dropdown-content">
+          <a href="#">Register</a>
+          <a href="#">Login</a>
         </div>
-        <a href="#about">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-      </div>
-    </div>
+      </div> 
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#">News</a>
+      <a href="#" class="active">Home</a>
+    </nav>
+
+    <!-- NAV BAR END -->
 
 
   </body>

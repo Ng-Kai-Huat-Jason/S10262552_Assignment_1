@@ -1,0 +1,119 @@
+/* NAV BAR STYLE START */
+body{
+    margin: 0;
+}
+
+.navbar {
+    font-family: 'Roboto Slab';
+    overflow: hidden;
+    background-color: black;
+  }
+  
+.navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 5px solid transparent;
+  }
+  
+.navbar .active {
+    border-bottom: 5px solid skyblue;
+    color: white;
+  }
+  
+.navbar .icon {
+    display: none;
+}
+  
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    font-size: 20px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 20px 20px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    border-bottom: 5px solid transparent;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: 5px solid transparent;
+}
+  
+.navbar a:hover, .dropdown:hover .dropbtn {
+    border-bottom: 5px solid skyblue;
+}
+  
+.dropdown-content a:hover {
+    border-bottom: 5px solid skyblue;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+@media screen and (max-width: 600px) {
+    .navbar a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
+}
+  
+@media screen and (max-width: 650px) {
+    .navbar.responsive {
+        display:flex;
+        flex-direction: column-reverse;
+        position: relative;
+    }
+    .navbar.responsive .icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .navbar.responsive .dropdown {
+        float: none;
+    }
+
+    .navbar.responsive .dropdown-content {
+        position: relative;
+    }
+    .navbar.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+/* NAV BAR STYLE END */
