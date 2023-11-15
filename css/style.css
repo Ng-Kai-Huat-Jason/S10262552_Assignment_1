@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background: black;
 }
 
 
@@ -170,3 +171,47 @@ body{
 
 /* LOL TRAILER START */
 
+.trailer {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  border-left:none;
+  border-right:none;
+  background-color:skyblue;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+}
+.trailer h2 {
+  font-family:'Roboto Slab';
+  text-align: center;
+  color: black;
+}
+.trailer iframe {
+  width: 45vw;
+  height: 49vh;
+  display: block;
+  margin: 0 auto;
+  border: 3px solid white;
+}
+
+.trailer button{
+  background-color:black;
+  color:white;
+  border:2px solid white;
+  position:relative;
+  top: 25px;
+  left: 47.5%;
+}
+
+@media screen and (max-width: 700px) {
+  .trailer iframe {
+    width: 80vw;
+    height: 25vh;
+  }
+  
+  .trailer button{
+    left: 41%;
+  }
+}
+
+
+/* LOL TRAILER END */
