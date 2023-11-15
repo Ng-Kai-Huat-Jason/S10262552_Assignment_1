@@ -1,6 +1,8 @@
 body{
     margin: 0;
 }
+
+
 /* NAV BAR STYLE START */
 
 .navbar {
@@ -82,13 +84,13 @@ body{
 }
   
 @media screen and (max-width: 700px) {
-    .navbar a:not(:first-child), .dropdown .dropbtn {
-      display: none;
-    }
-    .navbar a.icon {
-      float: right;
-      display: block;
-    }
+  .navbar a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
 }
   
 @media screen and (max-width: 700px) {
@@ -126,9 +128,41 @@ body{
 /* NAV BAR STYLE END */
 
 /* SLIDESHOW START */
-
-.slideshow-container .mySlides img{
-    width:100%;
+.slideshow-container .mySlides {
+  display: none;
 }
+
+.slideshow-container img {
+  vertical-align: middle
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.slideshow-container .active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.slideshow-container .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .slideshow-container .text {font-size: 11px}
+}
+
 
 /* SLIDESHOW END */
