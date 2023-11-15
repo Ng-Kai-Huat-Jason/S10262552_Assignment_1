@@ -1,5 +1,5 @@
 # LOLStore
-This website is to provide users a way to purchase "League of Legends" Merchandise as well as direct them to the Game's Website.
+This website is to promote and provide "League of Legends" Products to customers as well as some information about the game.
  
 ## Design Process
  
