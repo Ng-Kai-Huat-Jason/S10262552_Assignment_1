@@ -31,7 +31,7 @@ body{
     border-bottom: 5px solid transparent;
 }
 .navbar .active {
-    border-bottom: 5px solid skyblue;
+    border-bottom: 5px solid goldenrod;
     color: white;
   }
   
@@ -76,11 +76,11 @@ body{
 }
   
 .navbar a:hover, .dropdown:hover .dropbtn {
-    border-bottom: 5px solid skyblue;
+    border-bottom: 5px solid goldenrod;
 }
   
 .dropdown-content a:hover {
-    border-bottom: 5px solid skyblue;
+    border-bottom: 5px solid goldenrod;
 }
   
 .dropdown:hover .dropdown-content {
@@ -272,7 +272,7 @@ body{
   text-align: center;
   border-radius: 5px;
   background: white;
-  box-shadow: 0px 5px 10px skyblue;
+  box-shadow: 0px 5px 10px goldenrod;
 }
 
 .section .box-container .box h3{
@@ -315,3 +315,117 @@ body{
   }
 /* SECTION END */
 }
+
+
+/* FOOTER START */
+.footer{
+  background-color: white;
+  padding: 70px 0;
+}
+
+.footer .footer-container{
+  max-width: 1170px;
+  margin:auto;
+}
+
+.footer-container .footer-row{
+  display: flex;
+  flex-wrap: wrap;
+   
+}
+.footer-col{
+  width:25%;
+  padding: 0 15px;
+}
+
+.footer-col ul{
+  list-style:none;
+  padding: 0;
+}
+
+.footer-col h4{
+  font-size: 18px;
+  color:goldenrod;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h4::before{
+  content:'';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: black;
+  height: 2px;
+  box-sizing: border-box;
+  width:50px;
+}
+
+.footer-col ul li:not(last-child){
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color:white;
+  text-decoration: none;
+  font-weight: 300;
+  color: black;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+  color:goldenrod;
+  padding-left: 8px;
+}
+
+.footer-col .social-links a{
+  font-size:35px;
+  display: inline-block;
+  height:40px;
+  width: 40px;
+  background-color: black;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 47px;
+  border-radius: 50%;
+  color:white;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+  color:goldenrod;
+  background-color: black;
+}
+
+@media screen and (max-width: 700px){
+  .footer-col{
+    width:50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 574){
+  .footer-col{
+    width:100%;
+  }
+}
+  
+
+
+/* FOOTER END */
+
+/*COPYRIGHT START */
+.copyright{
+  text-align: center;
+  background: white;
+  color:black;
+  margin: 0;
+}
+
+/*COPYRIGHT END */
+
