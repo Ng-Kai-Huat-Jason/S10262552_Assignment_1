@@ -78,4 +78,5 @@ function myFunction() {
       slideshowContainer.style.marginTop = navbarHeight + 'px';
     }
   };
-  
+
+

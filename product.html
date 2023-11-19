@@ -11,6 +11,7 @@
   </head>
 
   <body>
+
     <!-- NAV BAR START -->
     <nav class="navbar" id="myNavbar">
       <img src="images\LOLstore.png" alt="">
@@ -24,81 +25,33 @@
       <a style="font-size:25px;" class="icon" onclick="myFunction()">&#9776;</a>
       
       <a href="contact.html" target="_blank">Contact</a>
-      <a href="product.html" target="_blank">Products</a>
-      <a href="#" class="active">Home</a>
+      <a href="#" class="active">Products</a>
+      <a href="index.html" target="_blank">Home</a>
     </nav>
     <!-- NAV BAR END -->
 
-
-    <!-- SLIDESHOW START -->
-
-    <!-- Slideshow container -->
-    <div class="slideshow-container">
-
-      <div class="mySlides fade">
-        <img src="images\Slideshow_2.png" style="width:100%">
-      </div>
-      
-      <div class="mySlides fade">
-        <img src="images\Slideshow_3.png" style="width:100%">
-      </div>
-      
-      <div class="mySlides fade">
-        <img src="images\Slideshow_1.png" style="width:100%">
-      </div>
-      
-      </div>
-      <br>
-
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-      
-    <!-- SLIDESHOW END -->
-
-  <!-- TRAILER PLAYER START -->
-    <div class="trailer">
-      <h2>League Of Legends Trailer</h2>
-      <iframe src="videos/League of Legends Gameplay Trailer by NiceTryIan _ Community Collab (1080p).mp4" title="LoLtrailer" autoplay></iframe>
-      <button type="button" 
-        onclick="location.href='https://signup.leagueoflegends.com/en-sg/signup/index'">Play Now!
-      </button>
-    </div>
-    <!-- TRAILER PLAYER END -->
-
-
-    <!-- SECTION START -->
-    <div class = "section">
-      <div class = "box-container">
-
-        <div class="box">
-          <i class='bx bx-info-circle' ></i>
-          <h3>About League</h3>
-           <p>"League of Legends" is a MOBA and is one of the most played game in the world
-            ,It was developed by Riot Games and 
-            features team-based competitive gameplay.</p>
+    <!-- PRODUCT PAGE START -->
+    <div class="container">
+      <header>
+        <h1>Product </h1>
+        <div class="shopping">
+          <i class='bx bx-shopping-bag'></i>
+          <span class="quantity">0</span>
         </div>
+      </header>
 
-        <div class="box">
-          <i class='bx bx-user-circle'></i>
-          <h3>About Us</h3>
-            <p>We are a third-party organization parthered with "Riot Games"
-              selling "League of Legend" merchandise.
-            </p>
-          </div>
-
-        <div class="box">
-          <i class='bx bx-target-lock'></i>
-          <h3>Our Goals</h3>
-            <p>High Quality Items<br>Fast Delivery<br>Good Support</p>
-        </div>
-
+      <div class="list"></div>
+    </div>
+    <div class="card">
+      <h1>Card</h1>
+      <ul class="listCard">
+      </ul>
+      <div class="checkOut">
+       <div class="total">0</div>
+        <div class="closeShopping">Close</div>
       </div>
     </div>
-    <!-- SECTION END -->
-
+    <!-- PRODUCT PAGE END -->
 
     <!-- FOOTER START -->
     <footer class ="footer">
@@ -145,6 +98,7 @@
 
     <!-- JAVA SCRIPT START -->
     <script src="javascript\main.js"> </script>
+    <script src="javascript/product.js"> </script>
     <!-- JAVA SCRIPT END -->
 
   </body>
