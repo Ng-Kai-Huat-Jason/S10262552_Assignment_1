@@ -17,7 +17,10 @@ This website is to promote and provide "League of Legends" Products to customers
 
 
 ## Technologies Used
-
+Visual Studio Code Software
+HTML
+Javascript
+CSS
 
 
 
@@ -26,6 +29,7 @@ This website is to promote and provide "League of Legends" Products to customers
 
 
 ## Credits
+
 
 ### Content
 
