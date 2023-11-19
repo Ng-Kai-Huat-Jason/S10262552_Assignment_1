@@ -21,8 +21,8 @@ This website is to promote and provide "League of Legends" Products to customers
 
 ## Technologies Used
 - [Visual Studio Code Software](https://code.visualstudio.com/)
-    -This project uses GitHub to allow viewing and sharing of project.
-HTML
+    - This project uses GitHub to allow viewing and sharing of project.
+- HTML
 Javascript
 CSS
 
@@ -42,4 +42,4 @@ CSS
 
 
 ### Acknowledgements
-
+- I received inspiration for this project from "League Of Legends" by Riot Games

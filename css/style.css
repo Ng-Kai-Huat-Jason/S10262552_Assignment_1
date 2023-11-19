@@ -458,6 +458,7 @@ body{
 }
 
 .Contact-Container .Contact-form{
+  background-color: white;
   max-width: 850px;
   display:grid;
   grid-template-columns: repeat(2,1fr);
@@ -467,8 +468,9 @@ body{
 }
 
 .Contact-Container .Contact-form .left{
-  height:100%;
-  background: url("images\Slideshow_2.png") no-repeat center;
+  height: 30%;
+  width: 100%;
+  background: url("../images/LOLSTORE.png") no-repeat center;
   background-size: cover;
   background-color: white;
 }
