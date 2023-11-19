@@ -1,3 +1,9 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
 body{
     margin: 0;
     background: black;
@@ -32,7 +38,6 @@ body{
 }
 .navbar .active {
     border-bottom: 5px solid goldenrod;
-    color: white;
   }
   
 .navbar .icon {
@@ -153,7 +158,6 @@ body{
   display: none;
 }
 
-.active,
 .dot:hover {
   background-color: #717171;
 }
@@ -429,3 +433,126 @@ body{
 
 /*COPYRIGHT END */
 
+
+/* CONTACT FORM START */
+.Contact-Container{
+  margin-top:84px;
+  position:relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:100%;
+  padding:20px 100px;
+}
+
+.Contact-Container:after{
+  content:'';
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  z-index: -1;
+  filter:blur(50px);
+}
+
+.Contact-Container .Contact-form{
+  max-width: 850px;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+}
+
+.Contact-Container .Contact-form .left{
+  height:100%;
+  background: url("images\Slideshow_2.png") no-repeat center;
+  background-size: cover;
+  background-color: white;
+}
+
+.Contact-Container .Contact-form .right{
+  padding:25px 40px;
+  background-color: white;
+  font-family:'Roboto Slab'
+}
+.Contact-Container .Contact-form .right h2{
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.Contact-Container .Contact-form .right h2:after{
+  content:'';
+  position: absolute;
+  left:50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height:4px;
+  width:50px;
+  border-radius:2px;
+  background-color: goldenrod;
+}
+
+.Contact-Container .Contact-form .right .field{
+  width:100%;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 2px solid black;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: .3s;
+}
+
+.Contact-Container .Contact-form .right .field:hover{
+  background-color: goldenrod;
+}
+
+.Contact-Container .Contact-form .right .field:focus{
+  background-color:white;
+}
+
+.Contact-Container .Contact-form .fieldarea{
+  min-height: 150px;
+}
+
+.Contact-Container .Contact-form .btn{
+  width: 100%;
+  font-family: 'Marcellus SC', serif;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 0.5rem 1rem;
+  background: #1e2328;
+  color: #cdbe91;
+  box-shadow: inset 0 0 2px #000000;
+  border-image: linear-gradient(to bottom, #c8aa6d, #7a5c29);
+  border-image-slice: 1;
+  border-width: 2px;
+  top: 75px;
+  left: 44%;
+  cursor: pointer;
+}
+
+.Contact-Container .Contact-form .btn:hover{
+  text-shadow: 0 0 5px #ffffff80;
+  box-shadow: 0 0 8px 0 #ffffff50;
+  background: linear-gradient(to bottom, #1e2328, #433d2b);
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+@media screen and (max-width: 700px){
+  .Contact-Container .Contact-form{
+    grid-template-columns: 1fr;
+  }
+
+  .Contact-Container .Contact-form left{
+    height:200px;
+  }
+}
+
+
+/* CONTACT FORM END */
