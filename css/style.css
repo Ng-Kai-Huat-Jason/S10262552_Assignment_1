@@ -701,8 +701,11 @@ background-color: goldenrod;
   width: 90%;
 }
 .listCard li button{
-  background-color: #fff5;
-  border: none;
+  width:50px;
+  height:20px;
+  background-color: white;
+  border-radius:5px;
+  border:1px black solid
 }
 .listCard .count{
   margin: 0 10px;
