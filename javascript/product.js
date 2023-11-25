@@ -20,56 +20,56 @@ let products = [
         id: 1,
         name: 'Story of Nunu: Collector Edition',
         image: '../images/product_1.png',
-        price: 100
+        price: 99.99
     },
 
     {
         id: 2,
         name: 'Nunu & Willump Figurine',
         image: '../images/product_2.png',
-        price: 130
+        price: 129.99
     },
 
     {
         id: 3,
         name: 'Cafe Cuties Gwen Figure',
         image: '../images/product_3.png',
-        price: 35
+        price: 34.99
     },
 
     {
         id: 4,
         name: 'Cafe Cuties Tibbers Plush',
         image: '../images/product_4.png',
-        price: 30
+        price: 29.99
     },
 
     {
         id: 5,
         name: 'Cafe Cuties Gwen Plush',
         image: '../images/product_5.png',
-        price: 30
+        price: 29.99
     },
 
     {
         id: 6,
         name: 'Gwen Keychain',
         image: '../images/product_6.png',
-        price: 12
+        price: 12.55
     },
 
     {
         id: 7,
         name: 'Gwen Plush',
         image: '../images/product_7.png',
-        price: 33
+        price: 33.49
     },
 
     {
         id: 8,
         name: 'HEARTSTEEL Band Poster',
         image: '../images/product_8.png',
-        price: 22
+        price: 21.49
     }
 ];
 let listCards  = [];
