@@ -1,6 +1,6 @@
 
 // navbar
-function myFunction() {
+function MyFunction() {
   var x = document.getElementById("myNavbar");
   var slideshowContainer = document.getElementsByClassName('slideshow-container')[0];
 
@@ -78,5 +78,4 @@ function myFunction() {
       slideshowContainer.style.marginTop = navbarHeight + 'px';
     }
   };
-
 

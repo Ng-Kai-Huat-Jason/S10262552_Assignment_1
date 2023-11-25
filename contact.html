@@ -22,7 +22,7 @@
           <a href="#">Login</a>
         </div>
       </div>
-      <a style="font-size:25px;" class="icon" onclick="myFunction()">&#9776;</a>
+      <a style="font-size:25px;" class="icon" onclick="MyFunction()">&#9776;</a>
 
       <a href="#" class="active" >Contact</a>
       <a href="product.html" target="_blank">Products</a>
@@ -37,14 +37,25 @@
         <div class="left"></div>
         <div class="right">
           <h2>Contact Us</h2>
-          <input type="text" class="field" placeholder="Your Name">
-          <input type="email" class="field" placeholder="Your Email">
-          <input type="text" class="field" placeholder="Your Phone">
-          <textarea class="field" placeholder="Message"></textarea>
-          <button class="btn">Send</button>
+          <input type="text" class="field" id ="textbox1" placeholder="Your Name">
+          <input type="email" class="field" id ="textbox2" placeholder="Your Email">
+          <input type="text" class="field" id ="textbox3" placeholder="Your Phone">
+          <textarea class="field" id ="textbox4" placeholder="Message"></textarea>
+          <button class="btn" id = "openPopup" onclick="openPopup()">Send</button>
         </div>
       </div>
     </div>
+
+    
+    <!-- POPUP START -->
+    <div class = "pop_container">
+      <div class = "popup" id="popup">
+        <h2>Thank You!</h2>
+        <p>for contacting us!</p>
+        <button type="button" onclick="closePopup()">Bye!</button>
+      </div>
+    </div>
+    <!-- POPUP END -->
     
     <!-- CONTACT FORM END -->
 
@@ -71,6 +82,7 @@
               <a href="https://instagram.com/leagueoflegends" target="_blank"><i class='bx bxl-instagram' ></i></i></a>
               <a href="https://www.reddit.com/r/leagueoflegends/" target="_blank"><i class='bx bxl-reddit' ></i></i></a>
               <a href="https://www.youtube.com/@leagueoflegends" target="_blank"><i class='bx bxl-youtube' ></i></i></a>
+
             </div>
           </div>
         </div>
@@ -92,7 +104,9 @@
 
 
     <!-- JAVA SCRIPT START -->
+    <script src="javascript\popup.js"> </script>
     <script src="javascript\main.js"> </script>
+
     <!-- JAVA SCRIPT END -->
 
   </body>
