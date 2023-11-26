@@ -1,6 +1,6 @@
 
 // navbar
-function MyFunction() {
+function myFunction() {
   var x = document.getElementById("myNavbar");
   var slideshowContainer = document.getElementsByClassName('slideshow-container')[0];
 
