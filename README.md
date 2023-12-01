@@ -47,7 +47,7 @@ From a user standpoint ,
     2. Make sure all links provided in page works.
 
 3. For Product page 
-    1. Make sure all products can be added to in-page cart.
+    1. Make sure products can be added to in-page cart.
     2. Item quantity in cart can be increased and removed. 
     3. Make sure mobile responsive works.
 

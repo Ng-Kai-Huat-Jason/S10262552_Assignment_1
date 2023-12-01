@@ -11,3 +11,4 @@ loginBtn.addEventListener('click', () => {
     console.log('Login button clicked');
     logcontainer.classList.remove("active");
 });
+/* To allow transition */

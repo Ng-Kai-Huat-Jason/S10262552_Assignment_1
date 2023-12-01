@@ -14,6 +14,28 @@ function myFunction() {
 }
 
 
+/* If dropdown menu open margin is 0, if close margin = navbar + pixel */
+window.onload = function() {
+  var navbar = document.getElementsByClassName('navbar')[0];
+  var navbarHeight = navbar.offsetHeight;
+  var slideshowContainer = document.getElementsByClassName('slideshow-container')[0];
+
+  // Get the computed value of the 'display' property of the navbar menu
+  var navbarMenuDisplay = window.getComputedStyle(navbar).getPropertyValue('display');
+
+  // Check if the responsive class is applied to the navbar
+  var isMenuOpen = navbar.classList.contains('responsive');
+
+  // Adjust the condition in the if statement as needed
+  if (isMenuOpen) {
+    slideshowContainer.style.marginTop = '0';
+  } else {
+    slideshowContainer.style.marginTop = navbarHeight + 'px';
+  }
+};
+
+
+
   //slideshow-banner
   let slideIndex = 1;
   showSlides(slideIndex);
@@ -59,24 +81,5 @@ function myFunction() {
     });
   });
 
-/* If dropdown menu open margin is 0, if close margin = navbar + pixel */
-  window.onload = function() {
-    var navbar = document.getElementsByClassName('navbar')[0];
-    var navbarHeight = navbar.offsetHeight;
-    var slideshowContainer = document.getElementsByClassName('slideshow-container')[0];
-  
-    // Get the computed value of the 'display' property of the navbar menu
-    var navbarMenuDisplay = window.getComputedStyle(navbar).getPropertyValue('display');
-  
-    // Check if the responsive class is applied to the navbar
-    var isMenuOpen = navbar.classList.contains('responsive');
-  
-    // Adjust the condition in the if statement as needed
-    if (isMenuOpen) {
-      slideshowContainer.style.marginTop = '0';
-    } else {
-      slideshowContainer.style.marginTop = navbarHeight + 'px';
-    }
-  };
-
+ 
 
