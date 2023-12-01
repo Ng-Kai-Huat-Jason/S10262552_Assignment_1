@@ -2,6 +2,14 @@
 This website is to promote and provide "League of Legends" Products to customers as well as some information about the game.
  
 ## Design Process
+I wanted to design this page to help users to have a easier way to 
+
+In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+- As a user type, I want to perform an action, so that I can achieve a goal.
+
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
+These files should themselves either be included as a pdf file in the project itself (in an separate directory)
+Include the Adobe XD wireframe as a folder. You can include the XD share url. 
  
 
 
@@ -32,15 +40,17 @@ This website is to promote and provide "League of Legends" Products to customers
 
 ### Content
 - The prices for the products are taken from ["League of Legend" Merch Shop](https://www.leagueoflegends.com/en-sg/)
+- The links for their socials are taken from their [linktr](https://linktr.ee/leagueoflegends)
 
 
 ### Media
+- The "LOLstore" Logo is made by Me 
 - The products from the "Product Page" are taken from ["League of Legend" Merch Shop](https://merch.riotgames.com/en-us/)
 - The "League of Legend" Trailer are taken from [NiceTrylan](https://www.leagueoflegends.com/en-sg/)
 
 ### Acknowledgements
 Below will be the links to where I received my inspiration from :
 - Project Inspiration - ["League of Legend" game by Riot Games](https://www.leagueoflegends.com/en-sg/)
-- Product Page Functions - ["Lun Dev"](https://www.youtube.com/watch?v=bCTd1eRX7Iw&t=287s&pp=ygUbaHRtbCByZXNwb25zaXZlIGFkZCB0byBjYXJ0)
-- Log in / Sign up Functions - ["ASMRProg"](https://www.youtube.com/watch?v=PlpM2LJWu-s&t=219s)
+- Product Page Functions - [Lun Dev](https://www.youtube.com/watch?v=bCTd1eRX7Iw&t=287s&pp=ygUbaHRtbCByZXNwb25zaXZlIGFkZCB0byBjYXJ0)
+- Log in / Sign up Functions - [ASMRProg](https://www.youtube.com/watch?v=PlpM2LJWu-s&t=219s)
 - Pop Up Functions - [GreatStack](https://www.youtube.com/watch?v=AF6vGYIyV8M&pp=ygUeaHRtbCBwb3AgdXAgYWZ0ZXIgYnV0dG9uIHByZXNz)
