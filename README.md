@@ -46,7 +46,7 @@ From a user standpoint ,
 
 
 ### Content
-- The prices for the products are taken from ["League of Legend" Merch Shop](https://www.leagueoflegends.com/en-sg/)
+- The prices for the products are taken from ["League of Legend" Merch Store](https://merch.riotgames.com/en-us/)
 - The links for their socials are taken from their [linktr](https://linktr.ee/leagueoflegends)
 
 
@@ -56,7 +56,7 @@ From a user standpoint ,
 - The "League of Legend" Trailer are taken from [NiceTrylan](https://www.youtube.com/watch?v=76cG7bcmmqM)
 - The icons for socials are taken from [Boxicon](https://boxicons.com/)
 - Banner Images are from 
-    - [PCMAG](https://www.pcmag.com/reviews/league-of-legends-wild-rift-for-ios)
+    - Welcome Banner drew by me
     - [DOT ESports](https://dotesports.com/league-of-legends/news/riot-reveals-new-dawnbringer-nightbringer-skins)
     - [CGTN](https://newsaf.cgtn.com/news/2021-11-07/Edward-Gaming-wins-2021-League-of-Legends-World-Championship-14YMbS1xCAE/index.html)
 
