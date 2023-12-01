@@ -2,14 +2,18 @@
 This website is to promote and provide "League of Legends" Products to customers as well as some information about the game.
  
 ## Design Process
-I wanted to design this page to help users to have a easier way to 
+This website is designed to provide new and old users a way to get "League of Legends" products in ASEAN regions. League is mainly a amercian and european game and we hope this website allows ASEAN users to get interested and play the game.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+From a company's standpoint , We want to achieve user trust and satisfactory by
+- Making sure products are in good quality
+- Providing good customer support
+- Making sure we provide latest products and deals for loyal customers
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+From a user standpoint , 
+- I want to be able to navigate the website with ease and without confusion
+- Get products easily and in quality
+- Get in contact with the company easily
+- If I'm interested in League , I want links to their game or maybe their developers (Riot Games)
  
 
 
@@ -24,13 +28,13 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 
 ## Technologies Used
 - [Visual Studio Code Software](https://code.visualstudio.com/)
-    - This project uses GitHub to allow viewing and sharing of project.
+    - This project uses VScode it's IDE.
 - [HTML](https://en.wikipedia.org/wiki/HTML)
-    -This project uses HTML to code the website.
+    - This project uses HTML to code the website.
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript#:~:text=JavaScript%20(JS)%20is%20a%20lightweight,Apache%20CouchDB%20and%20Adobe%20Acrobat.)
-    -This project uses Javascript to code the functionality of the website such as the product page and added of animations.
+    - This project uses Javascript to code the functionality of the website such as the product page and added of animations.
 - [CSS](https://en.wikipedia.org/wiki/CSS)
-    -This project uses CSS to style the website aesthetics.
+    - This project uses CSS to style the website aesthetics.
 
 
 
@@ -47,13 +51,18 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 
 
 ### Media
-- The "LOLstore" Logo is made by Me 
+- The "LOLstore" Logo is drew by Me 
 - The products from the "Product Page" are taken from ["League of Legend" Merch Shop](https://merch.riotgames.com/en-us/)
 - The "League of Legend" Trailer are taken from [NiceTrylan](https://www.youtube.com/watch?v=76cG7bcmmqM)
+- The icons for socials are taken from [Boxicon](https://boxicons.com/)
+- Banner Images are from 
+    - [PCMAG](https://www.pcmag.com/reviews/league-of-legends-wild-rift-for-ios)
+    - [DOT ESports](https://dotesports.com/league-of-legends/news/riot-reveals-new-dawnbringer-nightbringer-skins)
+    - [CGTN](https://newsaf.cgtn.com/news/2021-11-07/Edward-Gaming-wins-2021-League-of-Legends-World-Championship-14YMbS1xCAE/index.html)
 
 ### Acknowledgements
 Below will be the links to where I received my inspiration from :
 - Project Inspiration - ["League of Legend" game by Riot Games](https://www.leagueoflegends.com/en-sg/)
 - Product Page Functions - [Lun Dev](https://www.youtube.com/watch?v=bCTd1eRX7Iw&t=287s&pp=ygUbaHRtbCByZXNwb25zaXZlIGFkZCB0byBjYXJ0)
-- Log in / Sign up Functions - [ASMRProg](https://www.youtube.com/watch?v=PlpM2LJWu-s&t=219s)
+- Log In / Sign Up Functions - [ASMRProg](https://www.youtube.com/watch?v=PlpM2LJWu-s&t=219s)
 - Pop Up Functions - [GreatStack](https://www.youtube.com/watch?v=AF6vGYIyV8M&pp=ygUeaHRtbCBwb3AgdXAgYWZ0ZXIgYnV0dG9uIHByZXNz)
