@@ -42,15 +42,23 @@ From a user standpoint ,
 
 1. Make sure navigation bars works on every page and make sure the mobile version works as well.
 
-2. For Home Page (index.html) , make sure video plays and banner is working.
-    1. Make sure all links provided in page works.
+2. For Home Page
+    1. make sure video plays and banner is working.
+    2. Make sure all links provided in page works.
 
-3. For Product page, make sure all products can be added to in-page cart.
-    1. Item quantity in cart can be increased and removed. 
-    2. Make sure mobile responsive works.
+3. For Product page 
+    1. Make sure all products can be added to in-page cart.
+    2. Item quantity in cart can be increased and removed. 
+    3. Make sure mobile responsive works.
 
-4. For Contact Page , users are able to input into text boxes and click the send.
-    1. Make sure pop up appears and is able to be closed.
+4. Contact Page
+    1. Users are able to input into text boxes and click the send.
+    2. Make sure pop up appears and is able to be closed.
+
+5. Sign Up / Login Page
+    1. For Sign In , users can input data and if they press Sign In , it will bring them to the home page.
+    2. Able to switch between Sign In and Sign Up
+    3. For Sign Up , users can input data and if they press Sign up , it will redirect them to home page.
 
 
 
