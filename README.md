@@ -40,6 +40,18 @@ From a user standpoint ,
 
 ## Testing
 
+1. Make sure navigation bars works on every page and make sure the mobile version works as well.
+
+2. For Home Page (index.html) , make sure video plays and banner is working.
+    1. Make sure all links provided in page works.
+
+3. For Product page, make sure all products can be added to in-page cart.
+    1. Item quantity in cart can be increased and removed. 
+    2. Make sure mobile responsive works.
+
+4. For Contact Page , users are able to input into text boxes and click the send.
+    1. Make sure pop up appears and is able to be closed.
+
 
 
 ## Credits
