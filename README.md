@@ -25,9 +25,12 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 ## Technologies Used
 - [Visual Studio Code Software](https://code.visualstudio.com/)
     - This project uses GitHub to allow viewing and sharing of project.
-- HTML
-- Javascript
-- CSS
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+    -This project uses HTML to code the website.
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript#:~:text=JavaScript%20(JS)%20is%20a%20lightweight,Apache%20CouchDB%20and%20Adobe%20Acrobat.)
+    -This project uses Javascript to code the functionality of the website such as the product page and added of animations.
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+    -This project uses CSS to style the website aesthetics.
 
 
 
@@ -46,7 +49,7 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 ### Media
 - The "LOLstore" Logo is made by Me 
 - The products from the "Product Page" are taken from ["League of Legend" Merch Shop](https://merch.riotgames.com/en-us/)
-- The "League of Legend" Trailer are taken from [NiceTrylan](https://www.leagueoflegends.com/en-sg/)
+- The "League of Legend" Trailer are taken from [NiceTrylan](https://www.youtube.com/watch?v=76cG7bcmmqM)
 
 ### Acknowledgements
 Below will be the links to where I received my inspiration from :
